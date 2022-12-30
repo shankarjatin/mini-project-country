@@ -1,0 +1,108 @@
+/* *{
+    margin: 0;
+    padding: 0;
+
+} */
+body{
+    background-color: #FFF9CA;
+}
+.navbar{
+    position:sticky;}
+#logo1{
+  height: 4rem;
+  width: 4rem;
+  
+}
+#navlist1{
+    font-size:2.5rem;
+    font-weight: bolder;
+}
+#navlist2{
+    padding-top: 1.5rem;
+    margin-left: 2.5rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#aboutbtn{
+    margin-right: 2rem;
+    background-color: #FFB4B4;
+    height: 3rem;
+    width: 9rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 0ch;
+}
+ #aboutbtn:hover{
+    background-color:#B2A4FF;
+}
+#nav-item{
+    padding: 0%;
+   
+}
+#textcol1 {
+    
+       
+    /* font-size:10rem;
+    font-family: 'Passion One'; */
+    padding-top: 6rem;
+    padding-left: 1rem;
+}
+p{
+    font-family: 'passion one';
+    font-weight: 1300;
+    font-size: 5rem;
+    color: #000000;
+    line-height: 4.8rem;
+
+}
+nav{
+    background-color: #FFDEB4;
+}
+.container, .main{
+    background-color: #FFF9CA;
+}
+
+#imagebg{
+    padding: 10%;
+}
+.content2{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+#carouselimg{
+    height: 4rem;
+    width: 10%;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+}
+#testimonials{
+
+    background-color: #FFB4B4;
+    text-align:center;
+    }
+    
+    h2{
+        font-family: "montserrat-bold";
+        font-weight: 600;
+        size: 3rem;
+        line-height: 3.5rem;
+        color: rgb(0, 0, 0);
+    
+    }
+    .name{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .link{
+        height: 4%;
+        width: 4%;
+    }
+   

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylel.css"></head>
+<body>
+	
+      <hi style="color: rgb(255, 255, 255);"><%= title %></h1>
+    <hi style="color: rgb(60, 255, 0);"><%= password %></h1>
+    <hi style="color:rgb(0, 217, 255);"><%= email %> </h1>
+            
+    <div class="main">  
+        <input type="checkbox" id="chk" aria-hidden="true">	
+     
+
+			<div class="signup">
+				<form action="/signup" method="post">
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="uname" placeholder="User name" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="password" placeholder="Password" required="">
+                    <input type="password" name="cpassword" placeholder="Confirm Password" required="">
+					<button>Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form action="/login" method="post">
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="password" placeholder="Password" required="">
+					
+					<button>Login</button>
+				</form>
+				<p>Reset password <a href="/password">Click-here</a></p>
+			</div>
+	</div>
+
+
+</body>
+</html>
